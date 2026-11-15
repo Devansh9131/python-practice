@@ -6,6 +6,7 @@ number = int(input("Enter a number:"))
 for i in range(1, 11):
     print(f"{number} * {i} = {number*i}")
 
+print('\n')
 
 # Program 2: sum of 1 to N
 
@@ -15,12 +16,14 @@ for i in range(1, n + 1):
     total += i
 print(f"Sum of 1 to {n} is: {total}")
 
+print('\n')
+
+
 
 # Program 3: number guessing game
 
 secret_number = random.randint(1, 100)
 attempts = 0
-print(secret_number)
 while attempts < 7:
     guess = int(input("Enter your guess: "))
     attempts += 1
@@ -37,3 +40,5 @@ if guess == secret_number:
         print(f"Correct! You guessed it in {attempts} attempts.")
 else:
     print(f"You lost, the number was {secret_number}")
+
+print("\n")

@@ -5,6 +5,8 @@ if num % 2 == 0:
 else:
     print("Number is odd.")
 
+print("\n")
+
 
 # Part 2: grade calculator
 score = int(input("Enter your score: "))
@@ -22,6 +24,8 @@ elif score >= 50:
     print("Your Grade is: D")
 else:
     print("Your Grade is: F")
+
+print("\n")
 
 
 # Bonus: number checker.
@@ -46,6 +50,8 @@ if num % 5 == 0:
 else:
     print("Number cannot be divisible by 5.")
 
+print("\n")
+
 
 # Bonus: type 2
 
@@ -62,3 +68,5 @@ elif num > 0:
         print(f"{num} is a positive odd number.")
 else:
     print(f"{num} is an even number.")
+
+print("\n")
