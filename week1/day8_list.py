@@ -58,4 +58,3 @@ def list_statistics2(numbers):
 numbers = input("Enter numbers: ")
 print(list_statistics(numbers))
 print(list_statistics2(numbers))
-
